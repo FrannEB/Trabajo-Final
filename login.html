@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ea026aa25e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stilolog.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">ComidaRapida</a>
+        <div class="cont cont-menu">
+            <i class="fa-solid fa-bars" id="icono-menu"></i>
+        </div>
+        <ul class="navegacion">
+            <li><a href="#sobreNosotros">Sobre nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contactos">Contactos</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </header>
+    
+    <div class="container">
+        <div class="form-content">
+            <h1 id="title">Registro</h1>
+            <form>
+                <div class="input-grup">
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <p>Olvidaste tu Contraseña? <a href="">click aqui</a></p>
+                </div>
+                <div class="btn-field">
+                    <button id="signUp" type="button">Registro</button>
+                    <button id="signIn" type="button" class="disable">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="scriptLog.js"></script>
+</body>
+</html>
