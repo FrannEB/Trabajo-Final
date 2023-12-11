@@ -1,1 +1,6 @@
-Estoy termiando el proyecto. disculpe la demora
+aca esta el link al wireframe:
+https://lucid.app/lucidchart/e43eeb24-336f-4c74-94fb-af3ae64a3205/edit?viewport_loc=-5516%2C-2376%2C10423%2C5049%2C0_0&invitationId=inv_126a73b1-714d-43b7-bfa1-19dbe130a351
+
+Esta pagina consiste en un emprendimiento de ventas de comida rapida como hamburguesas, pollo frito, etc. 
+eh utilizado html, css y javascript.
+una pagina en la cual quise que sea vea bien esteticamente, y es responsivo/adaptable a moviles.
