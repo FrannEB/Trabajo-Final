@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
 
-        // Obtener datos del localStorage (simulando datos del registro)
+        
         const storedUserData = JSON.parse(localStorage.getItem(email));
 
         console.log("Datos almacenados:", storedUserData);
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (storedUserData && storedUserData.username === username && storedUserData.password === password) {
             document.getElementById("loginMessage").innerText = "Inicio de sesión exitoso.";
 
-            // Redirigir a la página principal
+            
             window.location.replace("index.html");
         } else {
             document.getElementById("loginMessage").innerText = "Nombre de usuario, correo electrónico o contraseña no válidos.";
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const newEmail = document.getElementById("newEmail").value;
         const newPassword = document.getElementById("newPassword").value;
 
-        // Guardar datos en localStorage
+        
         const newUser = {
             username: newUsername,
             password: newPassword,
